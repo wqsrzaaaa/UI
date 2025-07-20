@@ -1,0 +1,200 @@
+[
+  {
+    "name": "Arlyn Alonzo",
+    "email": "arlyn.alonzo@example.com",
+    "affiliations": [
+      "U.S. District Court for the Central District of California",
+      "U.S. Patent and Trademark Office",
+      "State Bar of California"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/img-21-1.jpg.avif"
+  },
+  {
+    "name": "Michael Angert",
+    "email": "michael.angert@example.com",
+    "affiliations": [
+      "State Bar of Maryland",
+      "District of Columbia Bar",
+      "U.S. District Court for the District of Maryland",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Michael3--e1580868756243.png.avif"
+  },
+  {
+    "name": "Lena Bacani",
+    "email": "lena.bacani@example.com",
+    "affiliations": [
+      "California Bar Association",
+      "U.S. District Court for the Central, Northern and Southern Districts of California"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2018/05/Lenawhite-e1580864955930.png.avif"
+  },
+  {
+    "name": "Tyler Barrett",
+    "email": "tyler.barrett@example.com",
+    "affiliations": [
+      "State Bar of California",
+      "State Bar of Utah",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Tyler3-e1580873189259.png.avif"
+  },
+  {
+    "name": "Stephen Burbach",
+    "email": "stephen.burbach@example.com",
+    "affiliations": [
+      "State Bar of California",
+      "Central District of California",
+      "Court of Appeals for the Federal Court",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Stephen1-e1580871954741.png.avif"
+  },
+  {
+    "name": "Daniel Castro",
+    "email": "daniel.castro@example.com",
+    "affiliations": [
+      "State Bar of California",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/img-27.jpg.avif"
+  },
+  {
+    "name": "Will Chadwick",
+    "email": "will.chadwick@example.com",
+    "affiliations": [
+      "Utah State Bar",
+      "U.S. District Court, Utah",
+      "U.S. Court of Appeals, 9th Circuit",
+      "U.S. Court of Appeals, Federal Circuit",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2023/08/Will-Chadwick-Profile-Pic3.png.avif"
+  },
+  {
+    "name": "Kari Dickinson",
+    "email": "kari.dickinson@example.com",
+    "affiliations": [
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2022/10/KariDickinson.jpg.avif"
+  },
+  {
+    "name": "Heidi Eisenhut",
+    "email": "heidi.eisenhut@example.com",
+    "affiliations": [
+      "State Bar of California",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Heidi-Eisenhut-Photo-125x225.jpg.avif"
+  },
+  {
+    "name": "Mike Fedrick",
+    "email": "mike.fedrick@example.com",
+    "affiliations": [
+      "State Bar of California",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Mike1-e1580869117354.png.avif"
+  },
+  {
+    "name": "Arlyn Alonzo",
+    "email": "arlyn.alonzo@example.com",
+    "affiliations": [
+      "U.S. District Court for the Central District of California",
+      "U.S. Patent and Trademark Office",
+      "State Bar of California"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/img-21-1.jpg.avif"
+  },
+  {
+    "name": "Michael Angert",
+    "email": "michael.angert@example.com",
+    "affiliations": [
+      "State Bar of Maryland",
+      "District of Columbia Bar",
+      "U.S. District Court for the District of Maryland",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Michael3--e1580868756243.png.avif"
+  },
+  {
+    "name": "Lena Bacani",
+    "email": "lena.bacani@example.com",
+    "affiliations": [
+      "California Bar Association",
+      "U.S. District Court for the Central, Northern and Southern Districts of California"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2018/05/Lenawhite-e1580864955930.png.avif"
+  },
+  {
+    "name": "Tyler Barrett",
+    "email": "tyler.barrett@example.com",
+    "affiliations": [
+      "State Bar of California",
+      "State Bar of Utah",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Tyler3-e1580873189259.png.avif"
+  },
+  {
+    "name": "Stephen Burbach",
+    "email": "stephen.burbach@example.com",
+    "affiliations": [
+      "State Bar of California",
+      "Central District of California",
+      "Court of Appeals for the Federal Court",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Stephen1-e1580871954741.png.avif"
+  },
+  {
+    "name": "Daniel Castro",
+    "email": "daniel.castro@example.com",
+    "affiliations": [
+      "State Bar of California",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/img-27.jpg.avif"
+  },
+  {
+    "name": "Will Chadwick",
+    "email": "will.chadwick@example.com",
+    "affiliations": [
+      "Utah State Bar",
+      "U.S. District Court, Utah",
+      "U.S. Court of Appeals, 9th Circuit",
+      "U.S. Court of Appeals, Federal Circuit",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2023/08/Will-Chadwick-Profile-Pic3.png.avif"
+  },
+  {
+    "name": "Kari Dickinson",
+    "email": "kari.dickinson@example.com",
+    "affiliations": [
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2022/10/KariDickinson.jpg.avif"
+  },
+  {
+    "name": "Heidi Eisenhut",
+    "email": "heidi.eisenhut@example.com",
+    "affiliations": [
+      "State Bar of California",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Heidi-Eisenhut-Photo-125x225.jpg.avif"
+  },
+  {
+    "name": "Mike Fedrick",
+    "email": "mike.fedrick@example.com",
+    "affiliations": [
+      "State Bar of California",
+      "U.S. Patent and Trademark Office"
+    ],
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Mike1-e1580869117354.png.avif"
+  }
+
+
+]

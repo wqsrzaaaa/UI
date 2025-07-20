@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body{
+  font-family :'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img {
+  filter: brightness(0) invert(1);
+}
