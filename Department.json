@@ -3,36 +3,108 @@
     "title": "Patents",
     "description": "Helps clients secure patents for their inventions and provides legal advice on patent rights and infringement issues.",
     "assignTo": "Patent Team",
-    "img" : "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2018/12/patent-intellectual-property-law-firm-loza-loza-technology-telecommunications.png.avif"
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2018/12/patent-intellectual-property-law-firm-loza-loza-technology-telecommunications.png.avif",
+    "users": [
+      {
+        "name": "Tyler Barrett",
+        "email": "tyler.barrett@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Tyler3-e1580873189259.png.avif"
+      },
+      {
+        "name": "Lena Bacani",
+        "email": "lena.bacani@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2018/05/Lenawhite-e1580864955930.png.avif"
+      }
+    ]
   },
   {
     "title": "Trade Marks",
     "description": "Specializes in trademark registration, protection, and enforcement to ensure brand security.",
     "assignTo": "Trademarks Experts",
-    "img" : "https://th.bing.com/th/id/OIP.ItcZUf9aZCG8-FCmoTg4EQHaE3?w=264&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+    "img": "https://th.bing.com/th/id/OIP.ItcZUf9aZCG8-FCmoTg4EQHaE3?w=264&h=180&c=7&r=0&o=7&pid=1.7&rm=3",
+    "users": [
+      {
+        "name": "Arlyn Alonzo",
+        "email": "arlyn.alonzo@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/img-21-1.jpg.avif"
+      },
+      {
+        "name": "Heidi Eisenhut",
+        "email": "heidi.eisenhut@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Heidi-Eisenhut-Photo-125x225.jpg.avif"
+      }
+    ]
   },
   {
     "title": "Copyright",
     "description": "Assists with protecting original creative works like books, music, and software through copyright registration and litigation.",
     "assignTo": "Copyright Division",
-    "img" : "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2018/12/copyright-law-firm-loza-loza-litigation-ownership-rights-digital-business.png.avif"
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2018/12/copyright-law-firm-loza-loza-litigation-ownership-rights-digital-business.png.avif",
+    "users": [
+      {
+        "name": "Michael Angert",
+        "email": "michael.angert@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Michael3--e1580868756243.png.avif"
+      },
+      {
+        "name": "Mike Fedrick",
+        "email": "mike.fedrick@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Mike1-e1580869117354.png.avif"
+      }
+    ]
   },
   {
     "title": "Internet Law",
     "description": "Handles legal issues related to online business, digital content, privacy, and cybersecurity.",
     "assignTo": "Cyber Law Team",
-    "img" : "https://d29ue5cy7i95av.cloudfront.net/wp-content/themes/loza-loza/images/img-4.jpg.avif"
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/themes/loza-loza/images/img-4.jpg.avif",
+    "users": [
+      {
+        "name": "Stephen Burbach",
+        "email": "stephen.burbach@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Stephen1-e1580871954741.png.avif"
+      },
+      {
+        "name": "Kari Dickinson",
+        "email": "kari.dickinson@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2022/10/KariDickinson.jpg.avif"
+      }
+    ]
   },
   {
     "title": "Counseling & License",
     "description": "Provides legal counseling and helps with licensing agreements for intellectual property and technology.",
     "assignTo": "Legal Advisors",
-    "img" : "https://d29ue5cy7i95av.cloudfront.net/wp-content/themes/loza-loza/images/img-5.jpg.avif"
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/themes/loza-loza/images/img-5.jpg.avif",
+    "users": [
+      {
+        "name": "Daniel Castro",
+        "email": "daniel.castro@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/img-27.jpg.avif"
+      },
+      {
+        "name": "Will Chadwick",
+        "email": "will.chadwick@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2023/08/Will-Chadwick-Profile-Pic3.png.avif"
+      }
+    ]
   },
   {
     "title": "Litigation",
     "description": "Represents clients in court and handles all aspects of IP disputes and enforcement actions.",
     "assignTo": "Litigation Team",
-    "img" : "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2018/12/business-litigation-intellectual-property-litigation-top-law-firm-loza-loza.png.avif"
+    "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2018/12/business-litigation-intellectual-property-litigation-top-law-firm-loza-loza.png.avif",
+    "users": [
+      {
+        "name": "Lena Bacani",
+        "email": "lena.bacani@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2018/05/Lenawhite-e1580864955930.png.avif"
+      },
+      {
+        "name": "Tyler Barrett",
+        "email": "tyler.barrett@example.com",
+        "img": "https://d29ue5cy7i95av.cloudfront.net/wp-content/uploads/2016/12/Tyler3-e1580873189259.png.avif"
+      }
+    ]
   }
 ]

@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import dept from '../../../Department.json';
 import users from '../../../attorneys.json'
+import { useNavigate } from 'react-router-dom';
 
 
 const AdminDepartment = () => {
@@ -45,7 +46,9 @@ const AdminDepartment = () => {
     });
   };
 
-  
+  const navigate = useNavigate()
+
+
 
   return (
     <div className="p-10 bg-gray-100 min-h-screen overflow-hidden">
@@ -63,17 +66,21 @@ const AdminDepartment = () => {
       >
         {departments.map((dept, index) => (
           <SwiperSlide key={index}>
-            <div className="group relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
+            <div
+              onClick={() => navigate('/admin/department/edit-departments', { state: dept })}
+              className="group relative cursor-pointer w-full h-64 rounded-xl overflow-hidden shadow-lg"
+            >
               <img src={dept.img} alt="" className="w-full h-full object-cover" />
               <h3 className="absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[rgb(148,28,30)] text-3xl tracking-widest w-full font-bold text-center px-2">
                 {dept.title}
               </h3>
-              <div className={`absolute bottom-0 flex justify-center items-end text-center text-lg left-0 w-full h-0 group-hover:h-45 transition-all duration-300 bg-black/60 text-white px-2  overflow-hidden`}>
-                <p className='pb-3'>{dept.description}</p>
+              <div className="absolute bottom-0 flex justify-center items-end text-center text-lg left-0 w-full h-0 group-hover:h-45 transition-all duration-300 bg-black/60 text-white px-2 overflow-hidden">
+                <p className="pb-3">{dept.description}</p>
               </div>
             </div>
           </SwiperSlide>
         ))}
+
       </Swiper>
 
       <div className="mt-10  p-6 rounded-xl max-w-xl">

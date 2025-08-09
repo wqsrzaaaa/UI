@@ -1,8 +1,15 @@
 import React from 'react'
+import UserIdentity from './UserIdentity'
+import UserToolCollection from './UserToolCollection'
+import Departments from './Departments'
 
 const UserHome = () => {
   return (
-    <div>UserHome</div>
+    <>
+      <UserIdentity />
+      <UserToolCollection />
+      <Departments />
+    </>
   )
 }
 

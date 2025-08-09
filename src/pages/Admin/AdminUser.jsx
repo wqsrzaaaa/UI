@@ -9,7 +9,11 @@ const AdminUser = () => {
 
   return (
     <div className="p-10 w-full bg-gray-100 ">
-      <h2 className="text-2xl font-semibold mb-4">Users</h2>
+      <div className='flex justify-between px-3'><h2 className="text-2xl font-semibold mb-4">Users</h2>
+        <button
+        onClick={()=> navigate('/admin/user/add')}
+         className='cursor-pointer rounded-lg h-9 px-4 bg-red-400 text-white'>Add User</button>
+      </div>
       <table className="w-full bg-white shadow rounded mb-10">
         <thead>
           <tr className="bg-gray-200 text-left">
@@ -25,8 +29,8 @@ const AdminUser = () => {
               <td className='pl-3'>{i + 1}</td>
               <th className="text-start p-3">{user.name}</th>
               <td className="p-3">{user.email}</td>
-              <td className="p-3 space-x-2">
-                <Link to={`/admin/user/view/${i}`} className="text-[rgb(148,28,30)] cursor-pointer hover:text-red-400">View</Link>
+              <td className=" space-x-2">
+                <Link to={`/admin/user/view/${i}`} className="text-[rgb(148,28,30)] cursor-pointer hover:text-red-400">View & edit</Link>
                 <Link
 
                 onClick={()=>( setdeleteUser(user.name) , setscale(true))}

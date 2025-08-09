@@ -21,6 +21,16 @@ import CreateTools from './pages/Admin/CreateTools';
 import AdminDepartment from './pages/Admin/AdminDepartment';
 import Footer from './Component/Footer';
 import Contact from './pages/Home/Contact';
+import AdminUserAdd from './pages/Admin/AdminUserAdd';
+import EditDepartments from './pages/Admin/EditDepartments';
+import AdminLogin from './pages/Admin/AdminLogin';
+import AdminSignup from './pages/Admin/AdminSignin';
+import UserLogin from './pages/UserPage/UserLogin';
+import UserSignup from './pages/UserPage/UserSignup';
+import MakeMyOwnTool from './pages/UserPage/MakeMyOwnTool';
+import UseruseTool from './pages/UserPage/UseruseTool';
+import PreviewDepartment from './pages/UserPage/PreviewDepartment';
+import UserProfile from './pages/UserPage/UserProfile';
 
 const AppWrapper = () => {
   const location = useLocation();
@@ -34,12 +44,22 @@ const AppWrapper = () => {
 
       <Routes>
         <Route path="/user" element={<UserHome />} />
+        <Route path="/user/profile" element={<UserProfile />} />
+        <Route path="/user/department" element={<PreviewDepartment />} />
+        <Route path="/user/tools/maketool" element={<MakeMyOwnTool />} />
+        <Route path="/user/tools/usetool" element={<UseruseTool />} />
+        <Route path="/user/login" element={<UserLogin />} />
+        <Route path="/user/signup" element={<UserSignup />} />
 
+        <Route path="/admin/login" element={<AdminLogin />} />
+        <Route path="/admin/signup" element={<AdminSignup />} />
         <Route path="/admin" element={<AdminHome />}>
           <Route index element={<AdminDashboard />} />
           <Route path="user" element={<AdminUser />} />
+          <Route path="user/add" element={<AdminUserAdd />} />
           <Route path="create-tool" element={<CreateTools />} />
           <Route path="department" element={<AdminDepartment />} />
+          <Route path="department/edit-departments" element={<EditDepartments />} />
           <Route path="user/view/:id" element={<AdminUserVIew />} />
         </Route>
 

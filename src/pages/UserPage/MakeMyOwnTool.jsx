@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { FaFilePdf, FaFileWord, FaFileAlt } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 
-const CreateTools = () => {
+const MakeMyOwnTool = () => {
   const [formData, setFormData] = useState({
     title: '',
     description: '',
@@ -227,7 +227,7 @@ const CreateTools = () => {
 
 
   return (
-    <div className="md:max-w-2xl md:mx-auto p-6">
+    <div className="max-w-2xl mx-auto p-6">
       <div className='flex justify-between items-center'>
         <h2 className="text-2xl font-bold mb-4"> Make My Own Tool</h2>
         <button
@@ -523,4 +523,4 @@ const CreateTools = () => {
   );
 };
 
-export default CreateTools;
+export default MakeMyOwnTool;

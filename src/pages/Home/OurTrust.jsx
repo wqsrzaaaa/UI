@@ -17,19 +17,19 @@ const OurTrust = () => {
         <div className='w-full h-full flex flex-col text-white justify-center  absolute top-0 left-0 z-4'>
 
           <h1 className='text-5xl underline pl-14 '>Why Choose Us?</h1>
-          <div className='w-full  h-[70%] flex items-end justify-evenly'>
+          <div className='w-full  h-[70%] flex flex-col md:flex-row mt-16 md:mt-0 md:items-end items-center justify-evenly'>
 
-              <div className='w-90 h-70 pr-5  flex flex-col gap-4 border-r-1'>
+              <div className='w-90   h-70 pr-5  flex flex-col gap-4 md:border-r-1 border-b-1'>
                 <img className='w-25 fill-white img' src={experience} alt="" />
                 <h1 className='text-3xl'>Experience</h1>
                 <p >Dedicated to excellence, our legal team provides trusted guidance and unwavering support across all areas of intellectual property law.</p>
               </div>
-              <div className='w-90 h-70 pr-5  flex flex-col gap-4 border-r-1'>
+              <div className='w-90   h-70 pr-5  flex flex-col gap-4 md:border-r-1 border-b-1'>
                 <VscWorkspaceTrusted className='w-25 text-5xl mt-3' />
                 <h1 className='text-3xl'>Trusted</h1>
                 <p >A reputation built on integrity, results, and client satisfaction, with years of trusted partnerships.</p>
               </div>
-              <div className='w-90 h-70 pr-5  flex flex-col gap-4'>
+              <div className='w-90   h-70 pr-5  flex flex-col gap-4'>
                 <BsGraphUpArrow className='w-25 text-5xl mt-3' />
                 <h1 className='text-3xl'>Strategic</h1>
                 <p >We don't just react, we anticipate challenges and craft forward-thinking solutions that protect your assets long term.</p>
@@ -41,10 +41,10 @@ const OurTrust = () => {
       </div>
 
       <div className='w-full h-[60vh] flex items-center justify-center'>
-        <div className='w-[90%] h-[80%] flex justify-between pr-8 rounded-3xl bg-[rgb(148,28,30)]'>
+        <div className='w-[90%] h-[80%] flex flex-col md:flex-row  justify-between pr-8 rounded-3xl bg-[rgb(148,28,30)]'>
       
-          <div className='w-120 h-full flex flex-col gap-2 items-center justify-center'>
-            <h1 className='text-4xl text-white '>Let's Talk. <br /> We're Ready When You Are</h1>
+          <div className='w-120 h-full flex  flex-col gap-2 pr-16 md:pr-0 items-center justify-center'>
+            <h1 className='md:text-4xl text-2xl text-white '>Let's Talk. <br /> We're Ready When You Are</h1>
           </div>
             <div className='w-80 h-full text-white  flex flex-col gap-2 items-center justify-center'>
                 <p className='text-2xl'>Free Consultion</p>

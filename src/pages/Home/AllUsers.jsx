@@ -42,11 +42,24 @@ const AllUsers = () => {
     ));
 
   return (
-    <div className="w-full min-h-screen flex flex-col items-center justify-center gap-8 p-6 bg-gray-50">
+    <div className="w-full md:min-h-screen flex flex-col items-center justify-center gap-8 p-6 bg-gray-50">
       <Swiper
         className="w-full h-1/2"
         spaceBetween={30}
-        slidesPerView={4}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 3,
+          },
+          1024: {
+            slidesPerView: 4,
+          },
+        }}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,

@@ -12,7 +12,7 @@ const AllDepartments = () => {
   return (
     <div className='w-full relative h-screen'>
       <div className='w-full flex flex-col items-center justify-center gap-3 mt-5'>
-        <h1 className='text-3xl font-semibold'>
+        <h1 className='md:text-3xl text-xl font-semibold'>
           Legal
           <span
             style={{ color: 'rgb(148, 28, 30)' }}
@@ -23,7 +23,7 @@ const AllDepartments = () => {
           we provide
         </h1>
 
-        <p className='text-xl w-[80%] text-center mt-3 text-zinc-800'>
+        <p className='md:text-xl w-[80%] text-center mt-3 text-zinc-800'>
           Loza & Loza is a comprehensive intellectual property law firm, staffed by
           experienced attorneys specializing in a wide range of IP disciplines,
           including the following areas:

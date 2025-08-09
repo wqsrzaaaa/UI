@@ -37,7 +37,7 @@ const FirstHomePage = () => {
       <div className='w-full h-full absolute z-2 bg-black/30'></div>
       <img className='w-full h-full object-center object-cover' src={Chicago} alt="" />
 
-      <div className='w-200 h-60 z-4 text-white absolute top-1/2 -translate-y-1/2 left-15'>
+      <div className='md:w-200 h-60 z-4 text-white absolute top-1/2 -translate-y-1/2 left-15'>
         <h1 className='text-5xl font-bold'>Loza & Loza LLP</h1>
         <p className='text-xl my-4'>
           We're here to support your journey—whether you're building, scaling, or moving on.

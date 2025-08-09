@@ -1,0 +1,22 @@
+[
+  {
+    "title": "PDF Compressor",
+    "description": "Reduce the size of your PDF files without losing quality. Ideal for sharing and uploading documents quickly."
+  },
+  {
+    "title": "Image Converter",
+    "description": "Convert images between different formats like JPG, PNG, and WebP with ease and retain high quality."
+  },
+  {
+    "title": "Text Summarizer",
+    "description": "Automatically condense long articles or essays into short summaries using AI-powered natural language processing."
+  },
+  {
+    "title": "Code Formatter",
+    "description": "Clean and format your code for languages like JavaScript, Python, and HTML to improve readability and consistency."
+  },
+  {
+    "title": "Unit Converter",
+    "description": "Easily convert between units like length, weight, temperature, and more using this all-in-one converter tool."
+  }
+]

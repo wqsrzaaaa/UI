@@ -38,7 +38,7 @@ const Nav = () => {
     >
       <img className='w-27 mt-5' src={logoRemovebg} alt="" />
 
-      <div className='w-[80%] h-full flex flex-col gap-4 items-center justify-center'>
+      <div className='w-[80%] hidden md:flex h-full flex-col gap-4 items-center justify-center'>
         <div
           ref={socialRef}
           style={{ backgroundColor: 'rgb(148, 28, 30)' }}
